@@ -36,4 +36,4 @@ Visit the [wiki page](https://docs.moodle.org/en/Custom_certificate_module "Wiki
 
 ## License
 
-Licensed under the [GNU GPL License](http://www.gnu.org/copyleft/gpl.html).
+Licensed under the [GNU GPL License](http://www.gnu.org/copyleft/gpl.html).# project-decimo
