@@ -100,5 +100,15 @@
         <KEY NAME="page" TYPE="foreign" FIELDS="pageid" REFTABLE="customcert_pages" REFFIELDS="id"/>
       </KEYS>
     </TABLE>
+    <TABLE NAME="customcert_sequential_codes" COMMENT="Stores sequential codes for certificates">
+    <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+    <FIELD NAME="certificateid" TYPE="int" LENGTH="10" NOTNULL="true"/>
+    <FIELD NAME="value" TYPE="int" LENGTH="10" NOTNULL="true"/>
+    <FIELD NAME="timecreated" TYPE="int" LENGTH="10" NOTNULL="true"/>
+    <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+    </KEYS>
+</TABLE>
+
   </TABLES>
 </XMLDB>
